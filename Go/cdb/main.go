@@ -164,7 +164,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	if _, err = db.Exec("TRUNCATE TABLE account"); err != nil {
+	if _, err = db.Exec("TRUNCATE TABLE accounts"); err != nil {
 		log.Fatal(err)
 	}
 
